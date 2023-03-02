@@ -1,16 +1,8 @@
 import React from "react";
-import { Login } from "./Login";
-import { Regis } from "./Regis";
+import { MyComponent } from "./demo";
 
-
-const App :React.FC = () => {
-
-  return (
-    <>
-      <Login />
-      <Regis />
-    </>
-  )
+const App = () => {
+  return <MyComponent />;
 };
 
-export default App;
+export { App };
